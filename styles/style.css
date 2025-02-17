@@ -1,0 +1,324 @@
+:root {
+    --cor-primaria: #000000;
+    --cor-secundaria: #ffffff;
+    --cor-terciaria: #ffffff;
+
+    --fonte-primaria: "Roboto", sans-serif;
+    --fonte-secundaria: "Courier New", Courier, sans-serif;
+    --fonte-terciaria: "Silkscreen", Courier New, Courier, sans-serif;
+}
+
+
+/* ///// Estilização da Página Home ///// */
+
+/* Resetado o espaçamento do CSS */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Colocado o tamanho da tela de 100%, colocado um border-box para os elementos filhos não saírem do Body e foi estilizado */
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
+/* Alinhado, dado uma altura, estilizado as cores do plano de fundo do header*/
+.cabecalho {  
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to bottom,rgb(17, 0, 255),rgb(0, 17, 204), rgb(13, 2, 139), rgb(5, 0, 80));
+    height: 5rem;
+    padding-left: 12%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    align-items: center;
+    gap: 3.12rem;
+}
+
+/* Estilizado texto dentro do Header e dado uma margem da esquerda */
+.cabecalho__menu__link {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.85rem;
+    color: var(--cor-secundaria);
+    text-decoration: none;
+}
+
+/* Alinhado todos elementos dentro do main */
+.apresentacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3% 12%;
+    gap: 60px;
+}
+
+/* Definido o tamanho do section alinhado e espaçado todos elementos dentro do section */
+.apresentacao__conteudo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;   
+}
+
+/* Estilizado conteúdo dentro do h1 */
+.apresentacao__conteudo__titulo {
+    font-family: var(--fonte-secundaria);
+    font-size: 1.69rem;
+    line-height: 1.87rem;
+}
+
+/* Criado um plano de fundo e colocado pra aparecer no texto em destaque, foi usado a tag strong */
+.titulo-destaque1 {
+    background-image: linear-gradient(to bottom,rgb(15, 5, 146),rgb(1, 5, 54), rgb(6, 2, 54));
+    color: var(--cor-terciaria);
+    border-radius: 0.62rem;
+    padding: 0rem 0.87rem;
+}
+
+.titulo-destaque2 {
+    color: #cc1b1b;
+    border: solid;
+    border-color: #cc1b1b;
+    border-radius: 1.25rem;
+    padding:0rem 0.87rem;
+}
+
+/* Estilizado o primeiro parágrafo */
+.apresentacao__conteudo__paragrafo {
+    font-family: var(--fonte-secundaria);
+    font-size: 1.06rem;
+    line-height: 1.25rem;
+}
+
+/* Estilizado o segundo parágrafo */
+.apresentacao__conteudo__paragrafo2 {
+    font-family: var(--fonte-secundaria);
+    font-size: 1.06rem;
+}
+
+/* Alinhado e espaçado conteudo dentro da Div de links */
+.apresentacao__links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+/* Estilizado o texto dentro do h2 */
+.apresentacao__links_subtitulo {
+    font-family: var(--fonte-secundaria);
+    font-size: 1.56rem;
+    color: var(--cor-secundaria);    
+}
+
+/* Alinhado, espaçado e estilizado a âncora de link do Instagram */
+#instagramEduardo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 40%;
+    font-family: var(--fonte-secundaria);
+    font-size: 1.06rem;
+    color: var(--cor-terciaria);
+    border-radius: 0.5rem;
+    background-image: linear-gradient(to bottom, rgb(47, 0, 53), rgb(214, 36, 161), rgb(255, 0, 0),rgb(255, 114, 20), rgb(253, 217, 15));
+    text-decoration: none;
+    padding: 0.44rem 1.56rem;
+}
+
+/* Seleciona o elemento da ancora Instagram quando o mouse passa por cima modificando sua cor */
+#instagramEduardo:hover {
+    background-image: linear-gradient(to bottom, rgb(163, 63, 177), rgb(212, 125, 186), rgb(241, 102, 102),rgb(243, 157, 99), rgb(233, 215, 112));
+}
+
+/* Alinhado, espaçado e estilizado a âncora de link do Linkedin */
+#linkedinEduardo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 40%;
+    font-family: var(--fonte-secundaria);
+    font-size: 1.06rem;
+    color: var(--cor-terciaria);
+    border-radius: 0.5rem;
+    background-image: linear-gradient(to bottom, rgb(18, 93, 231), rgb(67, 81, 207), rgb(126, 138, 207), rgb(180, 216, 240));
+    text-decoration: none;
+    padding: 0.44rem 1.56rem;
+}
+
+/* Seleciona o elemento da ancora Linkedin quando o mouse passa por cima modificando */
+#linkedinEduardo:hover {
+    background-image: linear-gradient(to bottom, rgb(163, 192, 247), rgb(163, 170, 230), rgb(170, 174, 199), rgb(211, 221, 228));
+}
+
+/* Alinhado, espaçado e estilizado a âncora de link do Github */
+#githubEduardo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 40%;
+    font-family: var(--fonte-secundaria);
+    font-size: 1.06rem;
+    color: var(--cor-terciaria);
+    border-radius: 0.5rem;
+    background-image: linear-gradient(to bottom, rgb(15, 14, 20), rgb(88, 88, 88), rgb(204, 204, 204));
+    text-decoration: none;
+    padding: 0.44rem 1.56rem;
+}
+
+/* Seleciona o elemento da ancora Github quando o mouse passa por cima modificando */
+#githubEduardo:hover {
+    background-image: linear-gradient(to bottom, rgb(131, 131, 131), rgb(143, 142, 142), rgb(189, 185, 185));
+}
+
+/* Modificado o tamanho da Imagem dentro do main */
+#imagemDePC {
+    display:flex;
+    width: 50%;
+}
+
+/* Alinhado o rodapé do html e colocado para sempre ser exibido no final da página */
+footer {
+    display:flex;
+    align-items: end;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Aumentado o tamanho, alinhado e estilizado o texto da âncora dentro do footer */
+.devEduardo {
+    width: 56.25rem;
+    text-align: center;
+    font-family: var(--fonte-terciaria);
+    border-top: 0.4px groove var(--cor-secundaria);
+    font-size: 0.94rem;
+    padding: 0.62rem;
+    color: var(--cor-secundaria);
+}
+
+/* ///// Estilização da Página About ///// */
+
+.imagemDeUmHomem {
+    display: flex;
+    width: 50%;
+    border-radius: 0.5rem;
+}
+
+/* ///// Estilização da Página Currículo ///// */
+
+.introducao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 12%;
+    gap: 5rem;
+}
+
+.introducao__conteudo {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    gap: 1rem;
+}
+
+.introducao__conteudo__tituloCurriculo {
+    font-family: var(--fonte-secundaria);
+    font-size: 1.87rem;
+}
+
+.introducao__conteudo__paragrafoCurriculo {
+    font-family: var(--fonte-secundaria);
+    font-size: 1.06rem;
+}
+
+li {
+    list-style-type: none;
+}
+
+.introducao__conteudo__tituloExperencias {
+    font-family: var(--fonte-secundaria);
+    font-size: 1.87rem;
+}
+
+.introducao__conteudo__listaDeExperiencias {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+
+.introducao__conteudo__tituloEstudos {
+    font-family: var(--fonte-secundaria);
+    font-size: 1.87rem;
+}
+
+.introducao__conteudo__listaEstudos {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+
+.introducao__conteudo__listaEstudos__links {
+    background-image: linear-gradient(to bottom, rgb(17, 228, 243), rgb(255, 255, 255), rgb(90, 241, 241), rgb(252, 252, 252));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.imagemHomem {
+    width: 55%;
+    border-radius: 0.5rem;
+}
+
+@media (max-width: 800px) {
+    .cabecalho {
+        width:auto;
+        padding: 4% 8%;
+        height: 5%;
+    }
+    .cabecalho__menu {
+        width: 100%;
+        gap: 10px;
+    
+    }
+    .cabecalho__menu__link {
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.20rem;
+    }
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 5%;
+        gap: 30px;
+    }
+    .apresentacao__conteudo {
+        width: auto;
+    }
+    /*/// media da Página curriculo ///*/
+    .introducao {
+        flex-direction: column-reverse;
+        padding: 5% 8%;
+        gap: 1.5rem;
+    }
+    .introducao__conteudo {
+        width: auto;
+    }
+    .introducao__conteudo__tituloCurriculo {
+        font-size: 1.40rem;
+    }
+    .introducao__conteudo__paragrafoCurriculo {
+        font-size: 1rem;
+    }
+    .introducao__conteudo__tituloExperencias {
+        font-size: 1.40rem;
+    }
+    .introducao__conteudo__tituloEstudos {
+        font-size: 1.40rem;
+    }
+}
+
