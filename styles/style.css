@@ -293,7 +293,7 @@ li {
     }
     .apresentacao {
         flex-direction: column-reverse;
-        padding: 5%;
+        padding: 5% 8%;
         gap: 30px;
     }
     .apresentacao__conteudo {
