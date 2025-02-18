@@ -27,6 +27,9 @@ body {
 /* Alinhado, dado uma altura, estilizado as cores do plano de fundo do header*/
 .cabecalho {  
     display: flex;
+    width: 100%;
+    position: fixed;
+    top: 0;
     align-items: center;
     background-image: linear-gradient(to bottom,rgb(17, 0, 255),rgb(0, 17, 204), rgb(13, 2, 139), rgb(5, 0, 80));
     height: 5rem;
@@ -52,7 +55,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 3% 12%;
+    padding: 8% 12%;
     gap: 60px;
 }
 
@@ -217,7 +220,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 5% 12%;
+    padding: 12%;
     gap: 5rem;
 }
 
@@ -277,7 +280,6 @@ li {
 
 @media (max-width: 800px) {
     .cabecalho {
-        width:auto;
         padding: 4% 8%;
         height: 5%;
     }
@@ -293,7 +295,7 @@ li {
     }
     .apresentacao {
         flex-direction: column-reverse;
-        padding: 5% 8%;
+        padding: 20% 8%;
         gap: 30px;
     }
     .apresentacao__conteudo {
@@ -302,7 +304,7 @@ li {
     /*/// media da Página curriculo ///*/
     .introducao {
         flex-direction: column-reverse;
-        padding: 5% 8%;
+        padding: 20% 8%;
         gap: 1.5rem;
     }
     .introducao__conteudo {
