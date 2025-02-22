@@ -31,9 +31,10 @@ body {
     position: fixed;
     top: 0;
     align-items: center;
-    background-image: linear-gradient(to bottom,rgb(17, 0, 255),rgb(0, 17, 204), rgb(13, 2, 139), rgb(5, 0, 80));
+    background-color: var(--cor-primaria);
     height: 5rem;
     padding-left: 12%;
+    border-bottom: 1px solid darkgreen;
 }
 
 .cabecalho__menu {
@@ -44,9 +45,10 @@ body {
 
 /* Estilizado texto dentro do Header e dado uma margem da esquerda */
 .cabecalho__menu__link {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.85rem;
-    color: var(--cor-secundaria);
+    font-weight:bolder;
+    color:darkgreen;
     text-decoration: none;
 }
 
@@ -72,6 +74,7 @@ body {
     font-family: var(--fonte-secundaria);
     font-size: 1.69rem;
     line-height: 1.87rem;
+    color: darkolivegreen;
 }
 
 /* Criado um plano de fundo e colocado pra aparecer no texto em destaque, foi usado a tag strong */
@@ -200,10 +203,10 @@ footer {
     width: 56.25rem;
     text-align: center;
     font-family: var(--fonte-terciaria);
-    border-top: 0.4px groove var(--cor-secundaria);
+    border-top: 0.4px groove darkgreen;
     font-size: 0.94rem;
     padding: 0.62rem;
-    color: var(--cor-secundaria);
+    color: darkgreen;
 }
 
 /* ///// Estilização da Página About ///// */
@@ -212,6 +215,8 @@ footer {
     display: flex;
     width: 50%;
     border-radius: 0.5rem;
+    border-bottom: 7px double darkgreen;
+    border-right: 7px double darkgreen;
 }
 
 /* ///// Estilização da Página Currículo ///// */
@@ -234,6 +239,7 @@ footer {
 .introducao__conteudo__tituloCurriculo {
     font-family: var(--fonte-secundaria);
     font-size: 1.87rem;
+    color: darkolivegreen;
 }
 
 .introducao__conteudo__paragrafoCurriculo {
@@ -248,6 +254,7 @@ li {
 .introducao__conteudo__tituloExperencias {
     font-family: var(--fonte-secundaria);
     font-size: 1.87rem;
+    color: darkolivegreen;
 }
 
 .introducao__conteudo__listaDeExperiencias {
@@ -259,6 +266,7 @@ li {
 .introducao__conteudo__tituloEstudos {
     font-family: var(--fonte-secundaria);
     font-size: 1.87rem;
+    color: darkolivegreen;
 }
 
 .introducao__conteudo__listaEstudos {
@@ -268,7 +276,7 @@ li {
 }
 
 .introducao__conteudo__listaEstudos__links {
-    background-image: linear-gradient(to bottom, rgb(17, 228, 243), rgb(255, 255, 255), rgb(90, 241, 241), rgb(252, 252, 252));
+    background-image: linear-gradient(to bottom, rgb(6, 102, 2), rgb(27, 190, 5), rgb(26, 136, 2));
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -276,6 +284,8 @@ li {
 .imagemHomem {
     width: 55%;
     border-radius: 0.5rem;
+    border-bottom: 7px double darkgreen;
+    border-right: 7px double darkgreen;
 }
 
 @media (max-width: 800px) {
