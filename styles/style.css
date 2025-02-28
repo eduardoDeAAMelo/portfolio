@@ -120,7 +120,6 @@ body {
 .apresentacao__links_subtitulo {
     font-family: var(--fonte-secundaria);
     font-size: 1.56rem;
-    color: var(--cor-secundaria);    
 }
 
 /* Alinhado, espaçado e estilizado a âncora de link do Instagram */
@@ -187,7 +186,7 @@ body {
 }
 
 /* Modificado o tamanho da Imagem dentro do main */
-#imagemDePC {
+#imagemDaLogo {
     display:flex;
     width: 50%;
 }
@@ -307,6 +306,9 @@ li {
         flex-direction: column-reverse;
         padding: 20% 8%;
         gap: 30px;
+    }
+    #imagemDaLogo {
+        width:100%;
     }
     .apresentacao__conteudo {
         width: auto;
