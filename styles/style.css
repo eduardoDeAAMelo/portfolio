@@ -48,8 +48,9 @@ body {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.85rem;
     font-weight:bolder;
-    color:darkgreen;
+    color:rgb(6, 207, 6);
     text-decoration: none;
+    text-shadow: 0px 0px 15px rgb(87, 247, 87);
 }
 
 /* Alinhado todos elementos dentro do main */
@@ -57,7 +58,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 8% 12%;
+    margin-top: 4%;
+    padding: 4% 12%;
     gap: 60px;
 }
 
@@ -74,7 +76,7 @@ body {
     font-family: var(--fonte-secundaria);
     font-size: 1.69rem;
     line-height: 1.87rem;
-    color: darkolivegreen;
+    color: rgb(87, 247, 87);
 }
 
 /* Criado um plano de fundo e colocado pra aparecer no texto em destaque, foi usado a tag strong */
@@ -206,7 +208,7 @@ footer {
     border-top: 0.4px groove darkgreen;
     font-size: 0.94rem;
     padding: 0.62rem;
-    color: darkgreen;
+    color: rgb(87, 247, 87);
 }
 
 /* ///// Estilização da Página About ///// */
@@ -215,8 +217,7 @@ footer {
     display: flex;
     width: 50%;
     border-radius: 0.5rem;
-    border-bottom: 7px double darkgreen;
-    border-right: 7px double darkgreen;
+    box-shadow: 5px 5px 15px rgb(138, 252, 138);
 }
 
 /* ///// Estilização da Página Currículo ///// */
@@ -239,7 +240,7 @@ footer {
 .introducao__conteudo__tituloCurriculo {
     font-family: var(--fonte-secundaria);
     font-size: 1.87rem;
-    color: darkolivegreen;
+    color: rgb(87, 247, 87);
 }
 
 .introducao__conteudo__paragrafoCurriculo {
@@ -254,7 +255,7 @@ li {
 .introducao__conteudo__tituloExperencias {
     font-family: var(--fonte-secundaria);
     font-size: 1.87rem;
-    color: darkolivegreen;
+    color: rgb(87, 247, 87);
 }
 
 .introducao__conteudo__listaDeExperiencias {
@@ -266,7 +267,7 @@ li {
 .introducao__conteudo__tituloEstudos {
     font-family: var(--fonte-secundaria);
     font-size: 1.87rem;
-    color: darkolivegreen;
+    color: rgb(87, 247, 87);
 }
 
 .introducao__conteudo__listaEstudos {
@@ -276,7 +277,7 @@ li {
 }
 
 .introducao__conteudo__listaEstudos__links {
-    background-image: linear-gradient(to bottom, rgb(6, 102, 2), rgb(27, 190, 5), rgb(26, 136, 2));
+    background-image: linear-gradient(to bottom, rgb(4, 75, 1), rgb(43, 255, 15), rgb(54, 187, 24));
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -284,8 +285,7 @@ li {
 .imagemHomem {
     width: 55%;
     border-radius: 0.5rem;
-    border-bottom: 7px double darkgreen;
-    border-right: 7px double darkgreen;
+    box-shadow: 5px 5px 15px rgb(138, 252, 138);
 }
 
 @media (max-width: 800px) {
