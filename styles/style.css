@@ -376,5 +376,9 @@ li {
     .introducao__conteudo__tituloEstudos {
         font-size: 1.40rem;
     }
+    .imagemHomem {
+        display: flex;
+        align-self: center;
+    }
 }
 
