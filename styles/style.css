@@ -266,6 +266,18 @@ li {
     gap: 1.3rem;
 }
 
+.introducao__conteudo__tituloHabilidades {
+    font-family: var(--fonte-secundaria);
+    font-size: 1.87rem;
+    color: rgb(87, 247, 87);
+}
+
+.introducao__conteudo__listaDeHabilidades {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+
 .introducao__conteudo__tituloEstudos {
     font-family: var(--fonte-secundaria);
     font-size: 1.87rem;
@@ -279,9 +291,29 @@ li {
 }
 
 .introducao__conteudo__listaEstudos__links {
-    background-image: linear-gradient(to bottom, rgb(4, 75, 1), rgb(43, 255, 15), rgb(54, 187, 24));
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: rgb(39, 185, 39);
+}
+
+.introducao__conteudo__tituloProjetos {
+    font-family: var(--fonte-secundaria);
+    font-size: 1.87rem;
+    color: rgb(87, 247, 87);
+}
+
+.introducao__conteudo__listaProjetos {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+
+.introducao__conteudo__listaProjetos__links {
+    color: rgb(39, 185, 39);
+}
+
+.introducao__conteudo__tituloIdiomas {
+    font-family: var(--fonte-secundaria);
+    font-size: 1.87rem;
+    color: rgb(87, 247, 87);
 }
 
 .imagemHomem {
