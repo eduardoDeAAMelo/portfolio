@@ -34,7 +34,7 @@ body {
     background-color: var(--cor-primaria);
     height: 5rem;
     padding-left: 12%;
-    border-bottom: 1px solid darkgreen;
+    border-bottom: 1px solid #505050;
 }
 
 .cabecalho__menu {
@@ -48,9 +48,9 @@ body {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.85rem;
     font-weight:bolder;
-    color:rgb(6, 207, 6);
+    color: #858585;
     text-decoration: none;
-    text-shadow: 0px 0px 15px rgb(87, 247, 87);
+    text-shadow: 0px 0px 12px #777777;;
 }
 
 /* Alinhado todos elementos dentro do main */
@@ -76,20 +76,13 @@ body {
     font-family: var(--fonte-secundaria);
     font-size: 1.69rem;
     line-height: 1.87rem;
-    color: rgb(87, 247, 87);
+    color: #858585;
 }
 
 /* Criado um plano de fundo e colocado pra aparecer no texto em destaque, foi usado a tag strong */
 .titulo-destaque1 {
-    color: #0026fd;
-    text-shadow: 0px 0px 10px #2243fd;
-    letter-spacing: 5px;
-    text-decoration: none;
-}
-
-.titulo-destaque2 {
-    color: #fa2a2a;
-    text-shadow: 0px 0px 10px #f82020;
+    color: #505050;
+    text-shadow: 0px 0px 10px #919191;
     letter-spacing: 5px;
     text-decoration: none;
 }
@@ -206,10 +199,10 @@ footer {
     width: 56.25rem;
     text-align: center;
     font-family: var(--fonte-terciaria);
-    border-top: 0.4px groove darkgreen;
+    border-top: 1px solid #505050;
     font-size: 0.94rem;
     padding: 0.62rem;
-    color: rgb(87, 247, 87);
+    color: #505050;
 }
 
 /* ///// Estilização da Página About ///// */
@@ -218,7 +211,7 @@ footer {
     display: flex;
     width: 50%;
     border-radius: 0.5rem;
-    box-shadow: 0px 0px 13px rgb(48, 248, 48);
+    box-shadow: 0px 0px 10px #505050;;
     border: 2px solid rgb(10, 10, 10);
 }
 
@@ -242,7 +235,7 @@ footer {
 .introducao__conteudo__tituloCurriculo {
     font-family: var(--fonte-secundaria);
     font-size: 1.87rem;
-    color: rgb(87, 247, 87);
+    color: #858585;
 }
 
 .introducao__conteudo__paragrafoCurriculo {
@@ -257,7 +250,7 @@ li {
 .introducao__conteudo__tituloExperencias {
     font-family: var(--fonte-secundaria);
     font-size: 1.87rem;
-    color: rgb(87, 247, 87);
+    color: #858585;
 }
 
 .introducao__conteudo__listaDeExperiencias {
@@ -279,7 +272,7 @@ li {
 .introducao__conteudo__tituloHabilidades {
     font-family: var(--fonte-secundaria);
     font-size: 1.87rem;
-    color: rgb(87, 247, 87);
+    color: #858585;
 }
 
 .introducao__conteudo__listaDeHabilidades {
@@ -291,7 +284,7 @@ li {
 .introducao__conteudo__tituloEstudos {
     font-family: var(--fonte-secundaria);
     font-size: 1.87rem;
-    color: rgb(87, 247, 87);
+    color: #858585;
 }
 
 .introducao__conteudo__listaEstudos {
@@ -301,13 +294,13 @@ li {
 }
 
 .introducao__conteudo__listaEstudos__links {
-    color: rgb(39, 185, 39);
+    color: #505050;
 }
 
 .introducao__conteudo__tituloProjetos {
     font-family: var(--fonte-secundaria);
     font-size: 1.87rem;
-    color: rgb(87, 247, 87);
+    color: #858585;
 }
 
 .introducao__conteudo__listaProjetos {
@@ -317,13 +310,13 @@ li {
 }
 
 .introducao__conteudo__listaProjetos__links {
-    color: rgb(39, 185, 39);
+    color: #505050;
 }
 
 .introducao__conteudo__tituloIdiomas {
     font-family: var(--fonte-secundaria);
     font-size: 1.87rem;
-    color: rgb(87, 247, 87);
+    color: #858585;
 }
 
 .imagemHomem {
@@ -331,7 +324,7 @@ li {
     align-self: baseline;
     width: 55%;
     border-radius: 0.5rem;
-    box-shadow: 0px 0px 13px rgb(48, 248, 48);
+    box-shadow: 0px 0px 13px #505050;;
     border: 1px solid rgb(10, 10, 10);
 }
 
