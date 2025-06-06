@@ -266,6 +266,16 @@ li {
     gap: 1.3rem;
 }
 
+.conteudo__listaDeExperiencias {
+    font-family: var(--fonte-secundaria);
+    font-size: 1.40rem;
+}
+
+.conteudo__listaDeExperiencias__paragrafo {
+    font-family: var(--fonte-secundaria);
+    
+}
+
 .introducao__conteudo__tituloHabilidades {
     font-family: var(--fonte-secundaria);
     font-size: 1.87rem;
