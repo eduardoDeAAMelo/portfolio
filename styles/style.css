@@ -225,7 +225,7 @@ footer {
 .introducao__conteudo {
     display: flex;
     flex-direction: column;
-    width: 45%;
+    width: 30%;
     gap: 1rem;
 }
 
@@ -367,7 +367,7 @@ li {
         gap: 1.5rem;
     }
     .introducao__conteudo {
-        width: auto;
+        width: 100%;
     }
     .introducao__conteudo__tituloCurriculo {
         font-size: 1.40rem;
