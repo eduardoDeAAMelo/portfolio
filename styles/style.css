@@ -57,7 +57,7 @@ body {
 .apresentacao {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 4%;
     padding: 4% 12%;
     gap: 60px;
@@ -65,7 +65,7 @@ body {
 
 /* Definido o tamanho do section alinhado e espaçado todos elementos dentro do section */
 .apresentacao__conteudo {
-    width: 50%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     gap: 1rem;   
@@ -73,14 +73,11 @@ body {
 
 /* Estilizado conteúdo dentro do h1 */
 .apresentacao__conteudo__titulo {
+    display: flex;
+    justify-content: center;
     font-family: var(--fonte-secundaria);
-    font-size: 1.69rem;
+    font-size: 2rem;
     line-height: 1.87rem;
-    color: #c7c7c7;
-}
-
-/* Criado um plano de fundo e colocado pra aparecer no texto em destaque, foi usado a tag strong */
-.titulo-destaque1 {
     color: #505050;
     text-shadow: 0px 0px 10px #919191;
     letter-spacing: 5px;
@@ -262,6 +259,11 @@ li {
 .conteudo__listaDeExperiencias {
     font-family: var(--fonte-secundaria);
     font-size: 1.40rem;
+}
+
+.conteudo__listaDeExperiencias__subtitulo {
+    font-family: var(--fonte-secundaria);
+    font-size: 1rem;
 }
 
 .conteudo__listaDeExperiencias__paragrafo {
