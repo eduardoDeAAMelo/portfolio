@@ -93,6 +93,8 @@ body {
 
 /* Estilizado o segundo parágrafo */
 .apresentacao__conteudo__paragrafo2 {
+    display: flex;
+    justify-content: center;
     font-family: var(--fonte-secundaria);
     font-size: 1.06rem;
     line-height: 3rem;
