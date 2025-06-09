@@ -77,7 +77,7 @@ body {
     justify-content: center;
     font-family: var(--fonte-secundaria);
     font-size: 2rem;
-    line-height: 1.87rem;
+    line-height: 6rem;
     color: #505050;
     text-shadow: 0px 0px 10px #919191;
     letter-spacing: 5px;
@@ -95,6 +95,7 @@ body {
 .apresentacao__conteudo__paragrafo2 {
     font-family: var(--fonte-secundaria);
     font-size: 1.06rem;
+    line-height: 3rem;
 }
 
 /* Alinhado e espaçado conteudo dentro da Div de links */
